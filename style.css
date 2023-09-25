@@ -130,11 +130,24 @@ body {
 }
 
 @media (max-width: 600px) {
+body, .column h3 {
+    font-family: Century Gothic;
+}
+}
+
+@media (max-width: 600px) {
 .header {
     width: 100%;
     height: 120px;
     padding-left: 20px;
     padding-top: 10px;
+}
+}
+
+@media (max-width: 600px) {
+.column p, .desc2, .desc {
+    font-family: Segoe Script;
+    font-weight: bold;
 }
 }
 
